@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+div,ul,li,a,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* inbuilt styling ends */
+
+table {width: 100%;border-collapse: collapse;}
+table, th, td {border: 1px solid black;padding: 8px;}
+th {background-color: #f2f2f2;}
+main{min-height: 80vh;}
+.message-card {
+position: fixed;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+padding: 10px 20px;
+background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
+border-radius: 5px;
+z-index: 9999;
+}
+
+.e_editForm{
+border: 1px solid blue;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: var(--white);
+padding: 30px;
+margin: 20px;
+border-radius: 8px;
+}
