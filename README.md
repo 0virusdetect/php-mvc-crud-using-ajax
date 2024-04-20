@@ -1,4 +1,4 @@
-# php-mvc-curd-using-ajax
+php-mvc-curd-using-ajax
 
 <----- for linux ------->
 go to /etc/apache2/sites-available/000-default.conf
@@ -24,10 +24,11 @@ run the project
 
 then add .htaccess file in root folder 
 upload all the files and then 
-go to public/index.php file
-$base_uri = '/mvc_startup';
-change this line into your website link 
-$base_uri = 'yourwebsitelink/';
+go to public/js/script.js file
+var base = "mvc_ajax_crud";
+// var base = "https://zerovirusdetect.000webhostapp.com";
+if you are using a folder then base = "folder name"
+if you are using a website name then = "website_link"
 
 
 <-------- database ------->
