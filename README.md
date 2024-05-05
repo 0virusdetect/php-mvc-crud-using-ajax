@@ -4,6 +4,8 @@ I'm a software engineer who is passionate about making contributing to open-sour
 * HTML
 * CSS
 * PHP
+* AJAX
+* JAVASCRIPT
 
 
 ## **I have created a PHP MVC CRUD Operation using AJAX**
